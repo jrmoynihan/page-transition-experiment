@@ -3,6 +3,7 @@
 </script>
 
 <script>
+	import {fade} from 'svelte/transition'
 	import Counter from '$lib/Counter.svelte';
 </script>
 
@@ -15,7 +16,7 @@
 	<h1>
 		<span class="welcome">
 			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
+				<source srcset="https://cdn.jsdelivr.net/gh/sveltejs/kit-template-default@00ead4b44cc05069932f99025ea1d8b02ab9483e/static/svelte-welcome.webp" type="image/webp" />
 				<img src="svelte-welcome.png" alt="Welcome" />
 			</picture>
 		</span>
